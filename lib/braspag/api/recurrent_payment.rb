@@ -33,7 +33,6 @@ module Braspag
             end
         end
 
-        private
         def as_json(options={})
             {
                 AuthorizeNow: @authorize_now,

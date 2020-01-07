@@ -44,7 +44,6 @@ module Braspag
             end
         end
 
-        private
         def as_json(options={})
             {
                 CardNumber: @card_number,
