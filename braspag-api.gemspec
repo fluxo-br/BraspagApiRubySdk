@@ -30,7 +30,7 @@ Gem::Specification.new do |spec|
                 'lib/braspag/api/request/query_sale_request.rb',
                 'lib/braspag/api/request/update_sale_request.rb']
 
-  spec.add_dependency 'bundler', '~> 2.1'
+  spec.add_dependency 'bundler', '~> 2.0'
   spec.add_dependency 'uuidtools', '~> 2.1'
   spec.add_development_dependency 'yard', '~> 0.8'
   spec.add_development_dependency 'rspec', '~> 3.4'
